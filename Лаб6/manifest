@@ -1,0 +1,20 @@
+CACHE MANIFEST
+#DATE 2018-11-25
+
+	CACHE:
+index.html
+error.html
+bootstrap.min.js
+bootstrap.min.css
+
+
+	NETWORK:
+
+*
+
+	FALLBACK:
+news.html /error.html
+calendar.html /error.html
+fans.html /error.html
+contacts.html /error.html
+admin.html /error.html
