@@ -1,0 +1,95 @@
+body {
+	width: 940px;
+	margin: 0 auto;	
+}
+.menu ul {
+	list-style: none;
+	margin: 0 ;
+	padding-left: 0;
+}
+.menu a {
+	display: block;
+	text-decoration: none;
+	padding: 1em;
+	background-color: #2b2c32;
+	border-right: 1px solid white; 
+	color: white;
+	transition: background-color 0.5s linear;
+}
+.menu {
+	position: fixed;
+	z-index: 30;
+	display: block;
+}
+.menu li {
+	float: left;
+}
+.menu a:hover {
+	background-color: gray;
+} 
+nav ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+nav ul li:hover > ul {
+	display: inherit;
+}
+nav ul ul li {
+	display: list-item;
+	position: relative;
+	background-color: #ffffff;
+	min-width: 210px;
+}
+.round {
+	float: right;
+    border-radius: 50px;
+    animation-name: spin; 
+    animation-duration: 3s;
+ }
+
+@keyframes spin {
+
+
+
+0%{
+	transform: rotate(0deg);
+}
+
+100%{
+	transform: rotate(360deg);
+}
+
+}
+
+h1,h2 {
+	text-align: center;
+}
+.slaid {
+    width: 940px;
+    height: 500px;
+     
+ }
+.footer {
+	width: 940px;
+	animation-name: tern; 
+    animation-duration: 2s;
+	
+}
+
+@keyframes tern {
+	0% {
+		margin-left: 20px;
+	}
+	100% {
+		margin-right: 20px;
+	}
+}
+
+.footer_text {
+	text-align: center;
+	margin-top: -3%; 
+	position: absolute;
+
+}
+
