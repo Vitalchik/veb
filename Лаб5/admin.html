@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html manifest="manifest">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Olga Harlan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+
+<body>
+
+<body style="font-size: 200%">
+	 <nav class=" navbar navbar-default navbar-fixed-top  container " role="navigation"  >
+	
+	 	<div class="container" >
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	            <span class="sr-only">Бург</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            </button>
+	    </div>
+
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+	    <ul class="nav navbar-nav">
+	        <li><a href="index.html">Main</a></li>
+	        <li class="dropdown">
+	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Matches<b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+	            <li><a href="Calendar of matches.html">Calendar of Mathes</a></li>
+	            <li><a href="#">Next game</a></li>
+	            <li><a href="#">Ratings</a></li>
+	        </ul>
+	          </li>
+	          <li><a href="news.html">News</a></li>
+	          <li><a href="fans.html">Fans</a></li>
+	          <li><a href="contacts.html">Contacs</a></li>
+	          <li><a href="admin.html">Admin</a></li>
+	    </ul>
+	    <img src="images/1.jpg" alt="logo" style="float: right;" width="50px">
+	</nav>
+<main class="container">
+
+	<div class="row">
+		<br>
+		<br>
+		<br>
+		<div class="col-md-7">
+			<img src="images/6.jpg" class="img-responsive" alt="image-icon" width="450px">
+		</div>
+		
+		<div class="col-md-5"><br>
+			<button type="button" class="btn btn-default pull-left">Завантажте зображення</button>
+		</div>
+
+	</div>
+
+	<br>
+
+	<div class="row">
+		
+		<div class="col-md-7">
+			<textarea class="form-control" rows="1.5" placeholder="Заголовок новини" id="Заголовок новини"></textarea>
+			<br>
+			<textarea class="form-control" rows="4" placeholder="Новина" id="Новина"></textarea>
+		</div>
+		
+		<div class="col-md-5"><br>
+			<button type="button" class="btn btn-default pull-left" id="News_add">Додайте новину</button>
+		</div>
+
+	</div>	
+			
+</main>
+
+	<footer class="container">
+	<img src="images/5.png" alt="footer" width="100%">		
+	</footer>
+	
+  	<script src="jquery-3.3.1.min.js"></script>
+  	<script src="bootstrap.min.js"></script>
+  	<script>jQuery('ul.nav > li').hover(function() { jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(); }, function() { jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(); })</script>
+
+</body>
+</body>
+</html>
