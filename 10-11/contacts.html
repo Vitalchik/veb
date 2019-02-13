@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <link  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link  rel="stylesheet"  href="css/contacts_style.css">
+</head>
+<body> 
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top "style="background-color:#cccccc" >
+  <a class="navbar-brand" href="index.html">Main</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <img class="imgg" src="img/1.jpg">
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Matches
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="calendar.html">Calendar</a>
+          <a class="dropdown-item" href="#">Another match</a>
+          <a class="dropdown-item" href="#">Last match result</a>
+        </div>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="news.html">News </a>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="fans.html">Fans</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacts.html">Contacts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="admin.html">Admin</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="row" id="contatti">
+<div class="container mt-5" >
+
+    <div class="row" style="height:550px">
+      <div class="col-md-6 maps" >
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.592291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sMykolaiv!5e0!3m2!1sit!2sit!4v1524815927978" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-2">
+      </div>
+
+      <div class="col-md-4">
+        <div style="border: 1px solid; ">
+          <h4 class="text-center" > Контактні дані Ольга Харлан</h4>
+          <address class="text-center">
+            <strong>Місце проживання</strong><br><br>
+            <em>м.Миколаїв <br>вул.Заньковецька 13</em>
+          </address>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div id="map"></div>
+      </div>
+
+
+    </div>
+</div>
+</div>
+
+
+  <footer class="container">
+  <img src="img/5.png" alt="footer" width="100%">    
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>jQuery('ul.nav > li').hover(function() { jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(); }, function() { jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(); })</script>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+body{
+  margin-top: 200px;
+
+  padding: 0;
+  background-color:#FFFFFF;
+}
+@media (min-width: 992px) {
+      .contennt  {
+      padding-left: 10%;
+     width: 90%;
+
+   }
+}
+.imgg{
+ height: 46px;
+ width: 60px;
+}
+
+.title{
+  padding-top: 200px;
+}
+h1{
+ text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+}
